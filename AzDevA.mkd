@@ -1,0 +1,58 @@
+## Cronograma Diario para la Certificación Microsoft Certified: Azure Developer Associate
+
+### Semana 1: Fundamentos de Azure y Desarrollo de Aplicaciones
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Azure y servicios principales | [Microsoft Learn: Introducción a Azure](https://learn.microsoft.com/es-es/training/paths/microsoft-azure-fundamentals/) |
+| Martes   | Creación y despliegue de una aplicación en Azure App Services | [Azure App Services](https://learn.microsoft.com/es-es/azure/app-service/) |
+| Miércoles | Administración de recursos con Azure CLI y PowerShell | [CLI y PowerShell en Azure](https://learn.microsoft.com/es-es/azure/cloud-shell/quickstart) |
+| Jueves   | Configuración y monitoreo de Azure App Services | [Monitorización en Azure](https://learn.microsoft.com/es-es/azure/azure-monitor/) |
+| Viernes  | Ejercicio práctico con Azure App Service | [Tutorial de Azure App Service](https://learn.microsoft.com/es-es/azure/app-service/quickstart-dotnetcore) |
+
+### Semana 2: Funciones, Almacenamiento y Seguridad
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Azure Functions y desarrollo de funciones | [Azure Functions](https://learn.microsoft.com/es-es/azure/azure-functions/) |
+| Martes   | Almacenamiento en Azure (Blob, Table, Queue, File) | [Azure Storage](https://learn.microsoft.com/es-es/azure/storage/common/storage-introduction) |
+| Miércoles | Seguridad con Key Vault y Managed Identities | [Azure Key Vault](https://learn.microsoft.com/es-es/azure/key-vault/) |
+| Jueves   | Autenticación con Azure AD en aplicaciones | [Autenticación con Azure AD](https://learn.microsoft.com/es-es/azure/active-directory/develop/) |
+| Viernes  | Ejercicio práctico de almacenamiento y seguridad | [Ejemplo de Azure Storage y seguridad](https://learn.microsoft.com/es-es/azure/security/) |
+
+### Semana 3: Comunicación y Mensajería en Azure
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Azure Service Bus y Event Grid | [Azure Service Bus](https://learn.microsoft.com/es-es/azure/service-bus-messaging/) |
+| Martes   | Azure Queue Storage y su uso en arquitecturas distribuidas | [Azure Queue Storage](https://learn.microsoft.com/es-es/azure/storage/queues/) |
+| Miércoles | Implementación de API Management en Azure | [Azure API Management](https://learn.microsoft.com/es-es/azure/api-management/) |
+| Jueves   | Monitorización con Application Insights | [Application Insights](https://learn.microsoft.com/es-es/azure/azure-monitor/app/app-insights-overview) |
+| Viernes  | Ejercicio práctico de mensajería y monitorización | [Ejemplo de integración de mensajería](https://learn.microsoft.com/es-es/azure/architecture/example-scenario/) |
+
+### Semana 4: Contenedores, CI/CD y Práctica de Examen
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Contenedores en Azure con ACI | [Azure Container Instances](https://learn.microsoft.com/es-es/azure/container-instances/) |
+| Martes   | Orquestación con AKS | [Azure Kubernetes Service](https://learn.microsoft.com/es-es/azure/aks/) |
+| Miércoles | Configuración de CI/CD con Azure DevOps | [Azure DevOps](https://learn.microsoft.com/es-es/azure/devops/) |
+| Jueves   | Simulación de examen con preguntas de práctica | [Simulación de examen AZ-204](https://www.microsoft.com/es-es/learning/exam-az-204.aspx) |
+| Viernes  | Revisión de temas clave y dudas | [Resumen de certificación Azure Developer](https://learn.microsoft.com/es-es/certifications/exams/az-204/) |
+
+## Recursos Adicionales
+- **Cursos en Español:**
+  - [Udemy - Azure Developer Associate AZ-204 (Español)](https://www.udemy.com/course/azure-developer-associate-az-204/)  
+  - [LinkedIn Learning - Desarrollo en Azure](https://www.linkedin.com/learning/)
+  
+- **Laboratorios Prácticos:**
+  - [Microsoft Learn Labs](https://learn.microsoft.com/es-es/training/azure/)
+  - [Azure Hands-on Labs](https://azure.github.io/)
+  
+- **Simuladores de Examen:**
+  - [MeasureUp - Examen de práctica AZ-204](https://www.measureup.com/microsoft-certified-azure-developer-associate-az-204-practice-test.html)
+  
+## Tips para el Examen
+1. **Practica con laboratorios:** No basta con leer, intenta desplegar servicios en Azure.
+2. **Usa la prueba gratuita de Azure:** [Azure Free Tier](https://azure.microsoft.com/es-es/free/)
+3. **Enfócate en el tiempo:** El examen tiene límite de tiempo, así que practica respondiendo rápido.
+4. **Lee bien las preguntas:** Muchas respuestas parecen correctas, pero hay detalles clave que marcan la diferencia.
+5. **Únete a comunidades:** Grupos de estudio en LinkedIn, Discord o foros pueden ayudarte mucho.
+6. **Revisa la documentación oficial:** La mayoría de las preguntas del examen están basadas en la documentación de Microsoft.
+
