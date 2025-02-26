@@ -1,0 +1,47 @@
+# 📅 Cronograma de Aprendizaje en Python (3 Meses - 15 Semanas)
+
+Este cronograma está diseñado para ayudarte a aprender Python de manera estructurada, cubriendo desarrollo web, automatización y modelos de IA con Gradio en 15 semanas. Incluye enlaces a recursos en español y actividades prácticas que te permitirán reforzar los conocimientos adquiridos.
+
+---
+
+## **🟢 Mes 1-3: Desarrollo Web con Python (12 Semanas)**
+
+Durante estas semanas, te enfocarás en aprender los fundamentos del desarrollo web con Python, desde los conceptos básicos hasta la creación y despliegue de aplicaciones web completas.
+
+| Semana | Lunes | Martes | Miércoles | Jueves | Viernes |
+|--------|-------|--------|-----------|--------|---------|
+| **1** | Instalación y Configuración de Python, Git, VS Code ([Guía](https://realpython.com/installing-python/)) | Sintaxis y estructuras básicas ([Curso](https://www.learnpython.org/)) | Programación Orientada a Objetos en Python ([Guía](https://realpython.com/python3-object-oriented-programming/)) | Manejo de archivos y errores ([Tutorial](https://realpython.com/working-with-files-in-python/)) | Introducción a Git y GitHub ([Guía](https://rogerdudler.github.io/git-guide/)) |
+| **2** | Introducción a HTML y CSS ([MDN](https://developer.mozilla.org/es/docs/Web/HTML)) | JavaScript Básico para el Frontend ([Guía](https://javascript.info/)) | Bootstrap y diseño responsivo ([Curso](https://getbootstrap.com/docs/5.0/getting-started/introduction/)) | DOM y eventos en JavaScript ([Guía](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model)) | Consumo de APIs con JavaScript ([Ejemplo](https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs)) |
+| **3** | Introducción a Flask ([Documentación](https://flask.palletsprojects.com/en/2.2.x/)) | Creación de rutas y templates en Flask ([Ejemplo](https://realpython.com/flask-by-example/)) | Formularios y validación en Flask ([Tutorial](https://flask.palletsprojects.com/en/2.2.x/patterns/wtforms/)) | Manejo de bases de datos con Flask-SQLAlchemy ([Guía](https://realpython.com/python-sql-libraries/)) | Autenticación de usuarios con Flask-Login ([Ejemplo](https://flask.palletsprojects.com/en/2.2.x/patterns/viewdecorators/)) |
+| **4-12** | Expansión de conocimientos en Flask y Django, desarrollo de proyectos prácticos, integración con APIs, pruebas, seguridad, optimización de rendimiento y despliegue en la nube. |
+
+Durante estas semanas adicionales, reforzarás el uso de Django, la creación de REST APIs con Django REST Framework, autenticación avanzada, seguridad de aplicaciones web y el uso de Docker y Kubernetes para contenedorización.
+
+---
+
+## **🟠 Semana 13-14: Automatización con Python**
+
+La automatización es una habilidad clave para mejorar la eficiencia en múltiples tareas. Estas semanas cubrirán desde la manipulación de archivos hasta la automatización de pruebas y procesos repetitivos.
+
+| Semana | Lunes | Martes | Miércoles | Jueves | Viernes |
+|--------|-------|--------|-----------|--------|---------|
+| **13** | Introducción a Automatización con Python ([Libro](https://automatetheboringstuff.com/)) | Manipulación de archivos y PDFs ([Guía](https://realpython.com/working-with-files-in-python/)) | Automatización de correo con Python ([Tutorial](https://realpython.com/python-send-email/)) | Web Scraping con BeautifulSoup y Selenium ([Ejemplo](https://realpython.com/beautiful-soup-web-scraper-python/)) | Pruebas automatizadas con Selenium ([Curso](https://selenium-python.readthedocs.io/)) |
+| **14** | Automatización de hojas de cálculo con OpenPyXL ([Guía](https://realpython.com/openpyxl-excel-spreadsheets-python/)) | Automatización de APIs con Python ([Tutorial](https://realpython.com/api-integration-in-python/)) | Creación de bots con Python ([Ejemplo](https://realpython.com/python-telegram-bot/)) | Automatización de procesos de datos ([Guía](https://towardsdatascience.com/data-pipelines-with-python-1969e25c2a52)) | Proyecto final de Automatización |
+
+A lo largo de estas semanas, aprenderás a aplicar automatización en tareas del mundo real, como reportes automáticos, extracción de datos web, manipulación de archivos masivos y pruebas automatizadas en aplicaciones web.
+
+---
+
+## **🔵 Semana 15: Modelos de IA con Gradio**
+
+La última semana estará enfocada en la integración de modelos de inteligencia artificial con Gradio, una herramienta fácil de usar para la creación de interfaces interactivas.
+
+| Semana | Lunes | Martes | Miércoles | Jueves | Viernes |
+|--------|-------|--------|-----------|--------|---------|
+| **15** | Introducción a Gradio para IA ([Guía](https://www.gradio.app/)) | Creación de una interfaz para un modelo de Machine Learning ([Ejemplo](https://towardsdatascience.com/deploying-machine-learning-models-with-gradio-294ce30aeddc)) | Integración de modelos de IA con Gradio y FastAPI ([Tutorial](https://realpython.com/fastapi/)) | Despliegue de modelos en la nube con Gradio ([Guía](https://huggingface.co/docs/hub/en/guides/gradio)) | Proyecto final: Implementación de un modelo de IA con Gradio |
+
+En esta fase, aprenderás cómo hacer que tus modelos de Machine Learning sean accesibles a través de interfaces web interactivas y desplegarlos en la nube para su uso en aplicaciones reales.
+
+---
+
+Este cronograma **te permitirá dominar Python, desarrollo web, automatización y modelos de IA en 3 meses** con un enfoque práctico. 🚀 Al finalizar, contarás con proyectos sólidos para agregar a tu portafolio y aplicar en el mundo real.
