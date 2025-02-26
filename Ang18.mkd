@@ -1,0 +1,56 @@
+## Cronograma Diario para Aprender Angular 18
+
+### Semana 1: Fundamentos de Angular
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Angular y configuración del entorno | [Guía Oficial de Angular](https://angular.io/start) |
+| Martes   | Estructura de un proyecto Angular y CLI | [Angular CLI](https://angular.io/cli) |
+| Miércoles | Módulos, Componentes y Plantillas | [Componentes en Angular](https://angular.io/guide/component-overview) |
+| Jueves   | Directivas y Pipes en Angular | [Directivas y Pipes](https://angular.io/guide/built-in-directives) |
+| Viernes  | Ejercicio práctico con componentes y directivas | [Ejemplo de Componentes](https://angular.io/tutorial) |
+
+### Semana 2: Servicios, Routing y Formularios
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Inyección de Dependencias y Servicios | [Servicios en Angular](https://angular.io/guide/dependency-injection) |
+| Martes   | Enrutamiento en Angular (RouterModule) | [Routing y Navegación](https://angular.io/guide/router) |
+| Miércoles | Formularios en Angular: Template-driven y Reactivos | [Formularios en Angular](https://angular.io/guide/forms-overview) |
+| Jueves   | Validaciones y manejo de errores en formularios | [Validaciones en Angular](https://angular.io/guide/form-validation) |
+| Viernes  | Ejercicio práctico con formularios y navegación | [Ejemplo de Formularios](https://angular.io/start) |
+
+### Semana 3: Consumo de APIs y Manejo del Estado
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Consumo de APIs con HttpClient | [HttpClient en Angular](https://angular.io/guide/http) |
+| Martes   | Manejo del Estado con NgRx | [NgRx: Introducción](https://ngrx.io/) |
+| Miércoles | Interceptores y manejo de errores HTTP | [Interceptores en Angular](https://angular.io/guide/http-interceptors) |
+| Jueves   | Optimización de aplicaciones Angular | [Mejorando el rendimiento](https://angular.io/guide/performance) |
+| Viernes  | Ejercicio práctico con llamadas API y NgRx | [Ejemplo de API en Angular](https://angular.io/tutorial) |
+
+### Semana 4: Pruebas, Despliegue y Buenas Prácticas
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Pruebas unitarias con Jasmine y Karma | [Pruebas en Angular](https://angular.io/guide/testing) |
+| Martes   | Pruebas de integración y end-to-end con Cypress | [Pruebas E2E](https://www.cypress.io/) |
+| Miércoles | Desplegando una aplicación Angular en producción | [Despliegue en Firebase](https://firebase.google.com/docs/hosting/) |
+| Jueves   | Buenas prácticas y patrones de diseño en Angular | [Mejores Prácticas](https://angular.io/guide/styleguide) |
+| Viernes  | Proyecto final y repaso general | [Angular Oficial](https://angular.io/) |
+
+## Recursos Adicionales
+- **Cursos en Español:**
+  - [Udemy - Angular Completo (Español)](https://www.udemy.com/course/angular-fernando-herrera/)
+  - [YouTube - Curso de Angular 18](https://www.youtube.com/results?search_query=Angular+18+curso)
+  
+- **Ejercicios y Proyectos:**
+  - [Angular RealWorld Example](https://github.com/gothinkster/angular-realworld-example-app)
+  - [Tour of Heroes](https://angular.io/tutorial)
+  
+- **Tips para Aprender Angular 18:**
+  1. **Practica con proyectos reales:** No solo sigas tutoriales, crea tus propias apps.
+  2. **Utiliza la documentación oficial:** Es la fuente más confiable y actualizada.
+  3. **Aprende RxJS:** Angular usa programación reactiva, entender RxJS te facilitará el desarrollo.
+  4. **Domina el uso de CLI:** Te ahorrará mucho tiempo en la configuración del proyecto.
+  5. **Únete a comunidades:** Grupos en Discord, Telegram o Stack Overflow pueden ayudarte con dudas.
+
+¡Buena suerte en tu aprendizaje de Angular 18! 🚀
+
