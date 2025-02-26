@@ -1,0 +1,76 @@
+## Cronograma Diario para Aprender Java con Spring Boot (2 Meses)
+
+### **Semana 1: Fundamentos de Java**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Java y configuración del entorno (JDK, IDE) | [Guía de Instalación de Java](https://www.java.com/es/download/help/download_options.html) |
+| Martes   | Sintaxis básica, variables, tipos de datos y operadores | [Conceptos básicos de Java](https://www.w3schools.com/java/) |
+| Miércoles | Estructuras de control (if, switch, loops) | [Estructuras de Control](https://www.javatpoint.com/java-control-flow) |
+| Jueves   | Métodos y programación modular en Java | [Métodos en Java](https://www.geeksforgeeks.org/methods-in-java/) |
+| Viernes  | Programación orientada a objetos (POO) | [POO en Java](https://www.tutorialspoint.com/java/java_object_classes.htm) |
+
+### **Semana 2: POO, Colecciones y Excepciones**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Clases, objetos, herencia y polimorfismo | [Herencia en Java](https://www.javatpoint.com/java-inheritance) |
+| Martes   | Interfaces y clases abstractas | [Interfaces en Java](https://www.w3schools.com/java/java_interface.asp) |
+| Miércoles | Colecciones en Java (List, Set, Map) | [Colecciones en Java](https://www.geeksforgeeks.org/collections-in-java-2/) |
+| Jueves   | Manejo de excepciones | [Excepciones en Java](https://www.tutorialspoint.com/java/java_exceptions.htm) |
+| Viernes  | Introducción a Maven y dependencias | [Guía de Maven](https://maven.apache.org/guides/) |
+
+### **Semana 3: Introducción a Spring Boot**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | ¿Qué es Spring Boot? Instalación y configuración | [Spring Boot Docs](https://spring.io/projects/spring-boot) |
+| Martes   | Creación de un proyecto con Spring Initializr | [Spring Initializr](https://start.spring.io/) |
+| Miércoles | Arquitectura de Spring Boot y estructura de un proyecto | [Arquitectura Spring Boot](https://www.javatpoint.com/spring-boot-architecture) |
+| Jueves   | Inyección de dependencias y Beans | [Spring Dependency Injection](https://www.baeldung.com/spring-dependency-injection) |
+| Viernes  | Configuración de archivos application.properties y application.yml | [Configuración en Spring Boot](https://www.baeldung.com/spring-boot-properties) |
+
+### **Semana 4: Controladores, Servicios y Repositorios**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Creación de controladores REST con Spring Boot | [Spring Boot REST](https://www.baeldung.com/spring-boot-rest) |
+| Martes   | Servicios en Spring Boot | [Servicios en Spring](https://www.baeldung.com/spring-service-layer) |
+| Miércoles | Repositorios y JPA con Hibernate | [Spring Data JPA](https://spring.io/projects/spring-data-jpa) |
+| Jueves   | Configuración de una base de datos en Spring Boot (MySQL, PostgreSQL) | [Configuración BD](https://www.baeldung.com/spring-boot-configure-data-source) |
+| Viernes  | CRUD completo con Spring Boot y JPA | [Ejemplo CRUD](https://www.tutorialspoint.com/spring_boot/spring_boot_crud_operations.htm) |
+
+### **Semana 5: Seguridad, Autenticación y Manejo de Errores**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Spring Security: Introducción y configuración | [Spring Security](https://spring.io/projects/spring-security) |
+| Martes   | Autenticación con JWT en Spring Boot | [JWT con Spring Boot](https://www.javainuse.com/spring/boot-jwt) |
+| Miércoles | Manejo de excepciones globales en Spring Boot | [Manejo de errores](https://www.baeldung.com/exception-handling-for-rest-with-spring) |
+| Jueves   | Logs y monitoreo con Spring Boot Actuator | [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators) |
+| Viernes  | Pruebas unitarias con JUnit y Mockito | [JUnit con Spring Boot](https://www.baeldung.com/spring-boot-testing) |
+
+### **Semana 6: Comunicación con APIs y Mensajería**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Consumo de APIs externas con RestTemplate y WebClient | [RestTemplate en Spring](https://www.baeldung.com/rest-template) |
+| Martes   | Comunicación asíncrona con RabbitMQ y Kafka | [Mensajería en Spring Boot](https://www.baeldung.com/spring-boot-rabbitmq) |
+| Miércoles | Integración con OpenAPI (Swagger) | [Swagger en Spring Boot](https://springdoc.org/) |
+| Jueves   | Subida de archivos y gestión de imágenes | [File Upload en Spring](https://www.baeldung.com/spring-file-upload) |
+| Viernes  | Proyecto práctico: API REST con autenticación y consumo de terceros | [Ejemplo avanzado](https://spring.io/guides) |
+
+### **Semana 7: Despliegue y Microservicios**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Microservicios con Spring Boot | [Spring Cloud](https://spring.io/projects/spring-cloud) |
+| Martes   | Comunicación entre microservicios con OpenFeign | [Spring Feign Client](https://www.baeldung.com/feign-integration-with-spring-cloud) |
+| Miércoles | Balanceo de carga con Eureka y Ribbon | [Eureka Server](https://www.baeldung.com/spring-cloud-netflix-eureka) |
+| Jueves   | Despliegue de aplicaciones Spring Boot en AWS y Docker | [Spring Boot Docker](https://www.baeldung.com/dockerizing-spring-boot-app) |
+| Viernes  | Proyecto final con microservicios | [Proyecto Microservicios](https://spring.io/guides) |
+
+### **Semana 8: Buenas Prácticas y Proyecto Final**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Buenas prácticas y patrones de diseño en Spring Boot | [Spring Best Practices](https://www.baeldung.com/spring-best-practices) |
+| Martes   | Refactorización y optimización del código | [Código limpio en Java](https://www.oreilly.com/library/view/clean-code/) |
+| Miércoles | Pruebas de integración y estrés con JMeter | [JMeter en Java](https://jmeter.apache.org/) |
+| Jueves   | Preparación para entrevistas técnicas de Spring Boot | [Entrevistas Java](https://www.geeksforgeeks.org/spring-boot-interview-questions/) |
+| Viernes  | Presentación del proyecto final y cierre del curso | [Spring Boot Docs](https://spring.io/projects/spring-boot) |
+
+¡Éxito en tu aprendizaje de Java con Spring Boot! 🚀
+
