@@ -1,0 +1,76 @@
+## Cronograma Diario 
+
+### **Semana 1: Fundamentos de C# y Principios SOLID**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Fundamentos de C# y .NET | [C# desde cero](https://learn.microsoft.com/es-es/dotnet/csharp/) |
+| Martes   | Programación Orientada a Objetos (POO) en C# | [POO en C#](https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop) |
+| Miércoles | Introducción a SOLID y Clean Code | [SOLID en C#](https://medium.com/@jorgeacetozi/solid-principles-in-c-net-core-98d4c5603fc0) |
+| Jueves   | Refactorización y mejoras con Clean Code | [Clean Code en C#](https://www.oreilly.com/library/view/clean-code/) |
+| Viernes  | Buenas prácticas y patrones de código limpio | [Best practices](https://learn.microsoft.com/es-es/dotnet/standard/) |
+
+### **Semana 2: Introducción a Arquitecturas de Software y Patrones de Diseño**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Patrones de Diseño | [Patrones de Diseño en C#](https://refactoring.guru/es/design-patterns) |
+| Martes   | Factory Pattern, Singleton y Dependency Injection | [DI en .NET](https://learn.microsoft.com/es-es/dotnet/core/extensions/dependency-injection) |
+| Miércoles | Repositorio y Unit of Work | [Unit of Work en C#](https://www.c-sharpcorner.com/UploadFile/asmathalder/unit-of-work-in-repository-pattern/) |
+| Jueves   | Introducción a Arquitecturas Monolíticas y su evolución | [Monolitos vs Microservicios](https://martinfowler.com/articles/microservices.html) |
+| Viernes  | CQRS y Mediator Pattern en C# | [CQRS en .NET](https://www.udemy.com/course/cqrs-pattern-with-mediatr-in-aspnet-core/) |
+
+### **Semana 3: Arquitectura Hexagonal y DDD**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a Arquitectura Hexagonal | [Hexagonal en .NET](https://www.baeldung.com/cs/hexagonal-architecture) |
+| Martes   | Implementación de Capas en Arquitectura Hexagonal | [Ejemplo práctico](https://dev.to/cesarscatola/hexagonal-architecture-in-net-core-5-an-alternative-to-the-clean-architecture-4aa5) |
+| Miércoles | Introducción a Domain-Driven Design (DDD) | [DDD en C#](https://www.pluralsight.com/courses/fundamentals-domain-driven-design) |
+| Jueves   | Entidades, Agregados y Repositorios en DDD | [Repositorios en DDD](https://khalilstemmler.com/articles/domain-driven-design/repository-dto-mapper/) |
+| Viernes  | Aplicando DDD en Microservicios | [Ejemplo DDD en .NET](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns) |
+
+### **Semana 4: Introducción a Microservicios con .NET**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | ¿Qué son los Microservicios? | [Conceptos de Microservicios](https://microservices.io/) |
+| Martes   | Creación de Microservicios con ASP.NET Core | [Microservicios en .NET](https://learn.microsoft.com/es-es/dotnet/architecture/microservices/) |
+| Miércoles | Comunicación entre microservicios con HTTP y gRPC | [gRPC en .NET](https://learn.microsoft.com/es-es/aspnet/core/grpc/) |
+| Jueves   | Introducción a Event-Driven Architecture (EDA) | [Eventos en Microservicios](https://www.enterpriseintegrationpatterns.com/) |
+| Viernes  | Implementación de Mensajería con RabbitMQ y Kafka | [RabbitMQ en C#](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html) |
+
+### **Semana 5: Seguridad y Autenticación en Microservicios**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Seguridad en APIs con JWT y OAuth2 | [JWT en .NET](https://jwt.io/) |
+| Martes   | Implementación de Identity Server | [IdentityServer4](https://identityserver4.readthedocs.io/en/latest/) |
+| Miércoles | Seguridad en Microservicios con API Gateway | [API Gateway con Ocelot](https://dev.to/moesmp/building-api-gateways-with-ocelot-in-aspnet-core-2bm8) |
+| Jueves   | Seguridad Zero Trust en arquitecturas distribuidas | [Zero Trust](https://www.microsoft.com/en-us/security/business/zero-trust) |
+| Viernes  | Implementación de Seguridad en Microservicios | [Ejemplo práctico](https://www.udemy.com/course/secure-microservices-in-net/) |
+
+### **Semana 6: Implementación de CQRS y Event Sourcing**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a CQRS | [CQRS explicado](https://martinfowler.com/bliki/CQRS.html) |
+| Martes   | Implementación de CQRS con MediatR | [MediatR en .NET](https://learn.microsoft.com/es-es/dotnet/core/extensions/mediat-r) |
+| Miércoles | Introducción a Event Sourcing | [Event Sourcing en .NET](https://www.eventstore.com/) |
+| Jueves   | Implementación de Event Sourcing en Microservicios | [Ejemplo de Event Sourcing](https://cqrs.nu/) |
+| Viernes  | Comparación entre CQRS, Event Sourcing y CRUD | [Diferencias CQRS y CRUD](https://www.event-driven.io/en/cqrs_crud_event_sourcing/) |
+
+### **Semana 7: Pruebas y DevOps**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Introducción a TDD en C# | [TDD en .NET](https://exceptionnotfound.net/test-driven-development-in-net-introduction/) |
+| Martes   | Pruebas Unitarias con xUnit y Moq | [xUnit en C#](https://xunit.net/) |
+| Miércoles | Integración continua con Azure DevOps | [Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/) |
+| Jueves   | Despliegue de Microservicios en Kubernetes | [Kubernetes en Azure](https://learn.microsoft.com/es-es/azure/aks/) |
+| Viernes  | Monitoreo y Logging con ELK Stack | [ELK en .NET](https://coralogix.com/blog/elk-stack-tutorial-for-net-developers/) |
+
+### **Semana 8: Proyecto Final y Buenas Prácticas**
+| Día      | Tema | Enlace |
+|----------|------|--------|
+| Lunes    | Diseño y planificación del proyecto final | [Guía de Arquitectura](https://learn.microsoft.com/es-es/dotnet/architecture/) |
+| Martes   | Implementación de Microservicio Principal | [Ejemplo real](https://github.com/dotnet-architecture/eShopOnContainers) |
+| Miércoles | Integración de Seguridad y CQRS | [Ejemplo CQRS](https://github.com/kgrzybek/modular-monolith-with-ddd) |
+| Jueves   | Despliegue en Producción | [Desplegar en Azure](https://learn.microsoft.com/es-es/azure/) |
+| Viernes  | Presentación y evaluación del proyecto final | [Recursos avanzados](https://learn.microsoft.com/es-es/dotnet/) |
+
+¡Éxito en tu aprendizaje de C# y Arquitectura de Software! 🚀
+
