@@ -1,0 +1,176 @@
+## **Estructura del Plan**
+
+### **Mes 1: Fundamentos del Back-End**
+#### **Objetivo:** Dominar los fundamentos de .NET 8.0, C#, Git y desarrollo de APIs REST.
+
+---
+
+#### **Semana 1: Introducción a .NET 8.0 y C#**
+- **Temas:**
+  - Variables, tipos de datos y estructuras de control.
+  - Clases, interfaces y programación orientada a objetos.
+  - Creación de proyectos con .NET CLI.
+- **Recursos:**
+  - [Microsoft Learn: Introducción a C#](https://learn.microsoft.com/es-es/dotnet/csharp/)
+  - [Microsoft Learn: Crear una aplicación web con ASP.NET Core](https://learn.microsoft.com/es-es/aspnet/core/getting-started/?view=aspnetcore-8.0&tabs=windows)
+- **Práctica:**
+  - Crea un proyecto básico de consola en .NET.
+
+---
+
+#### **Semana 2: Desarrollo de APIs REST**
+- **Temas:**
+  - Creación de endpoints HTTP (GET, POST, PUT, DELETE).
+  - Uso de Swagger/OpenAPI para documentar APIs.
+- **Recursos:**
+  - [Microsoft Learn: Crear una API Web](https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&tabs=visual-studio)
+  - [Video: Build a REST API with ASP.NET Core](https://www.youtube.com/watch?v=fmvcAzHps5w)
+- **Práctica:**
+  - Construye una API REST simple para gestionar productos (CRUD).
+
+---
+
+#### **Semana 3: Git y Control de Versiones**
+- **Temas:**
+  - Comandos básicos (`git init`, `git add`, `git commit`, `git push`).
+  - Trabajo con ramas (`git branch`, `git merge`).
+  - Colaboración en GitHub.
+- **Recursos:**
+  - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+  - [Learn Git Branching](https://learngitbranching.js.org/)
+- **Práctica:**
+  - Sube tu proyecto de API REST a GitHub.
+
+---
+
+#### **Semana 4: Clean Architecture**
+- **Temas:**
+  - Principios de Clean Architecture (separación de responsabilidades, capas de dominio, aplicación e infraestructura).
+  - Patrones como Repository y Dependency Injection.
+- **Recursos:**
+  - [Clean Architecture in .NET](https://www.youtube.com/watch?v=dK4YbP7B2kM)
+  - [Documentación Oficial de Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- **Práctica:**
+  - Refactoriza tu API REST utilizando Clean Architecture.
+
+---
+
+### **Mes 2: Back-End Avanzado y MongoDB**
+#### **Objetivo:** Aprender MongoDB, integraciones externas, SSO/OAuth y trabajar en un proyecto backend avanzado.
+
+---
+
+#### **Semana 5: MongoDB**
+- **Temas:**
+  - Instalación y configuración de MongoDB.
+  - Conexión a MongoDB desde .NET.
+  - Operaciones CRUD con MongoDB.
+- **Recursos:**
+  - [MongoDB University: M001 (Curso gratuito)](https://university.mongodb.com/)
+  - [MongoDB Driver for .NET](https://www.mongodb.com/docs/drivers/csharp/)
+- **Práctica:**
+  - Implementa MongoDB en tu API REST para almacenar datos.
+
+---
+
+#### **Semana 6: Integraciones Externas**
+- **Temas:**
+  - Consumir APIs externas usando `HttpClient`.
+  - Manejo de errores y timeouts.
+- **Recursos:**
+  - [Microsoft Learn: Llamar a una API Web](https://learn.microsoft.com/es-es/aspnet/core/fundamentals/http-requests?view=aspnetcore-8.0)
+- **Práctica:**
+  - Integra una API externa (por ejemplo, OpenWeather o NewsAPI) en tu proyecto.
+
+---
+
+#### **Semana 7: SSO y OAuth**
+- **Temas:**
+  - Conceptos básicos de autenticación y autorización.
+  - Implementación de OAuth 2.0 en .NET.
+- **Recursos:**
+  - [OAuth 2.0 Simplified](https://oauth.net/2/)
+  - [Microsoft Learn: Autenticación con IdentityServer](https://learn.microsoft.com/es-es/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-8.0)
+- **Práctica:**
+  - Añade autenticación con OAuth 2.0 a tu API REST.
+
+---
+
+#### **Semana 8: Proyecto Backend Completo**
+- **Objetivo:** Integrar todos los conceptos aprendidos en un proyecto completo.
+- **Descripción del Proyecto:**
+  - Una API REST con:
+    - Clean Architecture.
+    - MongoDB como base de datos.
+    - Documentación con Swagger.
+    - Autenticación con OAuth 2.0.
+- **Repositorio:**
+  - Sube el proyecto a GitHub.
+
+---
+
+### **Mes 3: Front-End y Preparación Final**
+#### **Objetivo:** Aprender React, TypeScript, Tailwind CSS, Shadcn y prepararte para entrevistas.
+
+---
+
+#### **Semana 9: React y TypeScript**
+- **Temas:**
+  - Componentes funcionales y hooks.
+  - Estado y props.
+  - Routing básico con React Router.
+- **Recursos:**
+  - [React Official Documentation](https://react.dev/learn)
+  - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+- **Práctica:**
+  - Crea una aplicación React básica con TypeScript.
+
+---
+
+#### **Semana 10: Tailwind CSS y Shadcn**
+- **Temas:**
+  - Clases utilitarias para diseño responsive con Tailwind CSS.
+  - Uso de componentes preconstruidos con Shadcn.
+- **Recursos:**
+  - [Tailwind CSS Official Documentation](https://tailwindcss.com/docs/installation)
+  - [Shadcn Documentation](https://ui.shadcn.com/)
+- **Práctica:**
+  - Diseña una interfaz moderna usando Tailwind y Shadcn.
+
+---
+
+#### **Semana 11: Integraciones Front-End**
+- **Temas:**
+  - Consumir APIs REST con `axios` o `fetch`.
+  - Implementar autenticación con SSO/OAuth.
+- **Recursos:**
+  - [Axios Documentation](https://axios-http.com/docs/intro)
+  - [Auth0 React SDK](https://auth0.com/docs/quickstart/spa/react)
+- **Práctica:**
+  - Consume tu API REST desde la aplicación React.
+  - Implementa autenticación con OAuth 2.0.
+
+---
+
+#### **Semana 12: Preparación para Entrevistas**
+- **Temas:**
+  - Revisión del CV y LinkedIn.
+  - Resolución de problemas de algoritmos (LeetCode, HackerRank).
+  - Práctica de preguntas técnicas sobre .NET, React y arquitectura.
+- **Recursos:**
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+- **Práctica:**
+  - Participa en simulaciones de entrevistas técnicas.
+
+---
+
+## **Consejos Finales**
+- Dedica **4-5 horas diarias** al estudio y práctica.
+- Usa plataformas como **GitHub** para subir tus proyectos.
+- Participa en comunidades como **Stack Overflow** o **Reddit** para resolver dudas.
+- Mantén una mentalidad de crecimiento constante; el aprendizaje no termina aquí.
+
+---
+
+¡Buena suerte en tu camino hacia el éxito profesional! 🚀
