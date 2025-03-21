@@ -1,0 +1,46 @@
+## 🗓 **Semana 1-4: Fundamentos y Configuración del Entorno**
+
+| Área | Contenido |
+|------|----------|
+| **Backend - .NET 8.0 y Clean Architecture** | 🚀 Introducción a **.NET 8.0** y su ecosistema.<br>⚙️ Configuración del entorno de desarrollo (**Visual Studio, .NET SDK, Docker**).<br>📂 Principios de **Clean Architecture** y su implementación en .NET 8.0.<br>🛠 Creación de un proyecto base con **Clean Architecture**.<br>🔗 Repositorio recomendado: [Clean Architecture Template](https://github.com/jasontaylordev/CleanArchitecture) |
+| **Frontend - React y TypeScript** | ⚡ Instalación de **Node.js** y configuración de un proyecto **React con Vite**.<br>📌 Fundamentos de **TypeScript** aplicado a React.<br>🎨 Introducción a **Shadcn y Tailwind CSS**.<br>🖥 Creación de **componentes reutilizables** con Shadcn.<br>🔗 Repositorios recomendados: [Shadcn UI](https://ui.shadcn.com/) - [Tailwind CSS Docs](https://tailwindcss.com/) |
+| **Git y Control de Versiones** | 📂 Uso de **Git y GitHub** para la gestión de código.<br>🔀 Estrategias de **branching** (**Git Flow, GitHub Flow**).<br>✅ **Pull requests** y revisiones de código.<br>📖 Recursos: [Pro Git Book](https://git-scm.com/book/en/v2) |
+
+---
+
+## 🗓 **Semana 5-8: Desarrollo de API's y Bases de Datos**
+
+| Área | Contenido |
+|------|----------|
+| **Backend - Desarrollo de API REST en .NET 8.0** | 🌐 Creación de una **API REST** con **.NET 8.0**.<br>📌 Implementación del **patrón Repository y Unit of Work**.<br>⚠️ Validaciones y **manejo de errores**.<br>📜 Uso de **Swagger** para documentar API's.<br>🔗 Recursos: [ASP.NET Core Web API Docs](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0) |
+| **Bases de Datos - MongoDB** | 📊 Fundamentos de **bases de datos NoSQL** y comparación con SQL.<br>🛠 Instalación y configuración de **MongoDB**.<br>🔄 **Operaciones CRUD** en **MongoDB con .NET**.<br>🌍 Uso de **MongoDB Atlas** y conexión con **.NET**.<br>🔗 Recursos: [MongoDB University](https://university.mongodb.com/) |
+| **Frontend - Componentización y Estados** | 📌 Administración del estado con **Zustand o Redux**.<br>🔗 Integración de **API REST** en React con **React Query o Axios**.<br>📝 Creación de **formularios dinámicos** con **React Hook Form**.<br>🔗 Recursos: [Zustand](https://github.com/pmndrs/zustand) - [React Query](https://tanstack.com/query/latest) |
+
+---
+
+## 🗓 **Semana 9-12: Integraciones Avanzadas y Proyecto Final**
+
+| Área | Contenido |
+|------|----------|
+| **Backend - Integraciones y Seguridad** | 🔑 Implementación de **autenticación y autorización** con **OAuth y JWT**.<br>🔗 Integraciones con **SSO en .NET 8.0**.<br>⚙️ Integraciones con sistemas **ERP** (**SAP, Dynamics**, etc.).<br>🔗 Recursos: [OAuth 2.0 Guide](https://oauth.net/2/) - [JWT Docs](https://jwt.io/) |
+| **Frontend - Seguridad e Integraciones** | 🔐 Implementación de **autenticación** en **React con OAuth y JWT**.<br>🔒 Protección de rutas y manejo de sesiones.<br>📡 Consumo de **APIs seguras** con **tokens de acceso**. |
+| **Proyecto Final - Desarrollo Full Stack** | 🚀 Desarrollo de una aplicación **Full Stack** utilizando todas las tecnologías aprendidas.<br>☁️ **Deploy en Azure** (Backend) y **Vercel** (Frontend).<br>📂 Presentación del proyecto en **GitHub** con documentación clara. |
+
+---
+
+## 📚 **Recursos Adicionales**
+
+🔗 **Backend:**
+- [Microsoft Learn - .NET 8](https://learn.microsoft.com/en-us/dotnet/core/)
+- [ASP.NET Core Web API Docs](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0)
+
+🔗 **Bases de Datos:**
+- [MongoDB University](https://university.mongodb.com/)
+- [FreeCodeCamp - MongoDB](https://www.freecodecamp.org/news/learn-mongodb-a4ce205e7739/)
+
+🔗 **Frontend:**
+- [React Docs](https://react.dev/)
+- [TypeScript Docs](https://www.typescriptlang.org/docs/)
+- [Tailwind CSS Docs](https://tailwindcss.com/)
+
+🚀 **Este plan te permitirá prepararte para postular con confianza a la empresa. ¡Éxito en tu aprendizaje!** 💪🔥
