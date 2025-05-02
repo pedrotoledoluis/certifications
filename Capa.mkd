@@ -1,0 +1,141 @@
+# 🗓️ Plan de Capacitación en .NET 
+
+## 📅 Semana 1: Introducción a .NET y Visual Studio
+
+**Objetivos**:
+- Familiarizarse con el entorno de desarrollo Visual Studio.
+- Comprender la estructura de proyectos en .NET.
+
+**Recursos**:
+- [Introducción a .NET](https://dotnet.microsoft.com/en-us/learn)
+- [Descargar SDKs de .NET para Visual Studio](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
+
+## 📅 Semana 2: ASP.NET Core - MVC y Razor Pages
+
+**Objetivos**:
+- Desarrollar aplicaciones web utilizando el patrón MVC.
+- Implementar Razor Pages para páginas dinámicas.
+
+**Recursos**:
+- [Tutorial: Comenzar con Razor Pages en ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-9.0)
+- [Cómo construir tu primera aplicación web con ASP.NET Core y .NET 8](https://medium.com/@solomongetachew112/how-to-build-your-first-web-app-with-asp-net-core-and-net-8-a-beginners-guide-94183e922adc)
+
+## 📅 Semana 3: ASP.NET Core - Web API y Microservicios
+
+**Objetivos**:
+- Crear APIs RESTful con ASP.NET Core.
+- Diseñar y desarrollar microservicios.
+
+**Recursos**:
+- [Tutorial de .NET: Tu primer microservicio](https://dotnet.microsoft.com/en-us/learn/aspnet/microservice-tutorial/intro)
+- [Qué saber sobre la construcción de microservicios con ASP.NET Core](https://www.techtarget.com/searchapparchitecture/tip/What-to-know-about-building-microservices-with-ASPNET-Core)
+
+## 📅 Semana 4: Entity Framework Core - Migraciones y Optimización
+
+**Objetivos**:
+- Gestionar migraciones de bases de datos.
+- Optimizar consultas utilizando EF Core.
+
+**Recursos**:
+- [Descripción general de Migraciones - EF Core](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/)
+- [EF Core Migrations: Una guía detallada](https://www.milanjovanovic.tech/blog/efcore-migrations-a-detailed-guide)
+
+## 📅 Semana 5: Diseño de Software - DDD, CQRS y Event Sourcing
+
+**Objetivos**:
+- Aplicar patrones de diseño como DDD y CQRS.
+- Implementar Event Sourcing en aplicaciones.
+
+**Recursos**:
+- [Aplicando patrones simplificados de CQRS y DDD en un microservicio](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/apply-simplified-microservice-cqrs-ddd-patterns)
+- [Hands-on DDD con Event Storming, CQRS y Event Sourcing en .NET](https://medium.com/codenx/hands-on-ddd-featuring-event-storming-cqrs-event-sourcing-in-net-9cce00257d1e)
+
+## 📅 Semana 6: Seguridad - OAuth2, OpenID Connect y JWT
+
+**Objetivos**:
+- Implementar autenticación y autorización en APIs.
+- Utilizar JWT para la gestión de tokens.
+
+**Recursos**:
+- [Configurar autenticación JWT en ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/configure-jwt-bearer-authentication?view=aspnetcore-9.0)
+- [Seguridad con OAuth2, OpenID Connect y JWT en .NET](https://dotnetfullstackdev.medium.com/security-with-oauth2-openid-connect-and-jwt-in-net-microservices-product-and-order-services-856f45dbc869)
+
+## 📅 Semana 7: Pruebas - Unitarias, Integración y End-to-End
+
+**Objetivos**:
+- Escribir pruebas unitarias y de integración.
+- Realizar pruebas de extremo a extremo.
+
+**Recursos**:
+- [Pruebas de integración en ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-9.0)
+- [Pruebas en .NET](https://learn.microsoft.com/en-us/dotnet/core/testing/)
+
+## 📅 Semana 8: CI/CD - Azure DevOps, GitHub Actions y Jenkins
+
+**Objetivos**:
+- Configurar pipelines de integración y entrega continua.
+- Automatizar despliegues con herramientas populares.
+
+**Recursos**:
+- [Tutorial: Desplegar entornos en CI/CD usando GitHub](https://learn.microsoft.com/en-us/azure/deployment-environments/tutorial-deploy-environments-in-cicd-github)
+- [Configurando una canalización de CD para tu Jenkins CI](https://azuredevopslabs.com/labs/vstsextend/jenkins/)
+
+## 📅 Semana 9: Contenedores - Docker y Kubernetes
+
+**Objetivos**:
+- Containerizar aplicaciones .NET con Docker.
+- Desplegar y gestionar aplicaciones en Kubernetes.
+
+**Recursos**:
+- [Desplegar un microservicio .NET en Kubernetes](https://learn.microsoft.com/en-us/training/modules/dotnet-deploy-microservices-kubernetes/)
+- [Construyendo una API con .NET Core, Docker y Kubernetes](https://medium.com/@josesousa8/building-an-api-with-net-core-docker-and-kubernetes-aa3e02add0c)
+
+## 📅 Semana 10: Despliegue en Azure - App Service, Functions y AKS
+
+**Objetivos**:
+- Desplegar aplicaciones en Azure App Service y Azure Functions.
+- Gestionar clústeres con Azure Kubernetes Service (AKS).
+
+**Recursos**:
+- [Tutorial: Crear un clúster de Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster)
+- [Opciones de almacenamiento para aplicaciones en Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/concepts-storage)
+
+## 📅 Semana 11: SQL Server - Consultas Avanzadas
+
+**Objetivos**:
+- Escribir y optimizar consultas avanzadas en SQL Server.
+- Utilizar procedimientos almacenados y funciones.
+
+**Recursos**:
+- [Escribir consultas avanzadas de Transact-SQL](https://learn.microsoft.com/en-us/training/paths/write-advanced-transact-sql-queries/)
+- [Tutorial de SQL Avanzado](https://mode.com/sql-tutorial/intro-to-advanced-sql/)
+
+## 📅 Semana 12: Comunicación entre Microservicios - REST y gRPC
+
+**Objetivos**:
+- Implementar comunicación entre microservicios usando REST.
+- Utilizar gRPC para comunicación eficiente.
+
+**Recursos**:
+- [gRPC - .NET](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/grpc)
+- [Explorando gRPC en Microservicios con .NET: Una guía completa](https://medium.com/@microclip.lakeesha/exploring-grpc-in-microservices-with-net-a-comprehensive-guide-fc4ef95be808)
+
+## 📅 Semanas 13-16: Proyecto Integrador
+
+**Objetivos**:
+- Aplicar todos los conocimientos adquiridos en un proyecto práctico.
+- Desarrollar, probar y desplegar una aplicación completa.
+- Documentar y presentar el proyecto final.
+
+**Actividades**:
+- Semana 13: Diseño y planificación del proyecto.
+- Semana 14: Desarrollo y pruebas.
+- Semana 15: Optimización y documentación.
+- Semana 16: Presentación y retroalimentación.
+
+## 📌 Recomendaciones Generales
+
+- **Evaluaciones Semanales**: Al finalizar cada semana, realiza una evaluación para medir el progreso y reforzar los conocimientos adquiridos.
+- **Documentación**: Mantén una documentación detallada de cada tema abordado, incluyendo ejemplos prácticos y notas personales.
+- **Participación Activa**: Involúcrate en comunidades y foros relacionados con .NET para compartir experiencias y resolver dudas.
+- **Práctica Continua**: Complementa las sesiones diarias con ejercicios prácticos adicionales para afianzar los conceptos aprendidos.
