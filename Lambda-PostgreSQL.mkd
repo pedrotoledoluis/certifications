@@ -1,0 +1,157 @@
+
+# 🐘 AWS Lambda con C# (.NET Core) y PostgreSQL
+
+Este ejemplo demuestra cómo usar AWS Lambda para conectarse a una base de datos PostgreSQL y recuperar una lista de usuarios. El código ha sido refactorizado aplicando buenas prácticas y principios de Clean Code.
+
+---
+
+## ✅ Requisitos Previos
+
+- .NET 6 o 7
+- PostgreSQL configurado y accesible
+- Tabla `usuarios` con columnas: `id`, `nombre`, `email`
+- AWS Lambda configurada
+- Paquete NuGet: `Npgsql`
+
+```bash
+dotnet add package Npgsql
+```
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+MiLambdaPostgre/
+├── Models/
+│   └── Usuario.cs
+├── Services/
+│   └── PostgreSqlService.cs
+├── Function.cs
+└── MiLambdaPostgre.csproj
+```
+
+---
+
+## 🧾 `Models/Usuario.cs`
+
+```csharp
+namespace MiLambdaPostgre.Models;
+
+public class Usuario
+{
+    public int Id { get; set; }
+    public string Nombre { get; set; }
+    public string Email { get; set; }
+}
+```
+
+---
+
+## 🛠️ `Services/PostgreSqlService.cs`
+
+```csharp
+using System.Collections.Generic;
+using MiLambdaPostgre.Models;
+using Npgsql;
+
+namespace MiLambdaPostgre.Services;
+
+public class PostgreSqlService
+{
+    private readonly string _connectionString;
+
+    public PostgreSqlService(string connectionString)
+    {
+        _connectionString = connectionString;
+    }
+
+    public List<Usuario> ObtenerUsuarios()
+    {
+        var usuarios = new List<Usuario>();
+
+        using var conn = new NpgsqlConnection(_connectionString);
+        conn.Open();
+
+        using var cmd = new NpgsqlCommand("SELECT id, nombre, email FROM usuarios", conn);
+        using var reader = cmd.ExecuteReader();
+
+        while (reader.Read())
+        {
+            usuarios.Add(new Usuario
+            {
+                Id = reader.GetInt32(0),
+                Nombre = reader.GetString(1),
+                Email = reader.GetString(2)
+            });
+        }
+
+        return usuarios;
+    }
+}
+```
+
+---
+
+## 💡 `Function.cs`
+
+```csharp
+using Amazon.Lambda.Core;
+using MiLambdaPostgre.Models;
+using MiLambdaPostgre.Services;
+using System;
+using System.Collections.Generic;
+
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace MiLambdaPostgre;
+
+public class Function
+{
+    private readonly PostgreSqlService _dbService;
+
+    public Function()
+    {
+        var connectionString = Environment.GetEnvironmentVariable("POSTGRES_CONNECTION_STRING");
+        if (string.IsNullOrEmpty(connectionString))
+            throw new Exception("POSTGRES_CONNECTION_STRING no está definido en las variables de entorno");
+
+        _dbService = new PostgreSqlService(connectionString);
+    }
+
+    public List<Usuario> FunctionHandler(string input, ILambdaContext context)
+    {
+        context.Logger.LogInformation("🔍 Iniciando recuperación de usuarios...");
+        var usuarios = _dbService.ObtenerUsuarios();
+        context.Logger.LogInformation($"✅ {usuarios.Count} usuarios recuperados.");
+        return usuarios;
+    }
+}
+```
+
+---
+
+## 🔐 Uso de Secrets Manager (opcional)
+
+Si prefieres usar Secrets Manager en lugar de variables de entorno, puedes integrarlo con el SDK de AWS para recuperar la cadena de conexión segura.
+
+---
+
+## 💡 Buenas Prácticas Aplicadas
+
+- 🔐 **No incluir credenciales directamente en el código**
+- 💬 **Logging claro** con `context.Logger`
+- 🔄 **Reutilización de código** con un servicio de base de datos
+- 📦 **Modelo de datos explícito** (`Usuario`)
+- 🧩 **Separación de responsabilidades**
+
+---
+
+## 🚀 Despliegue
+
+Puedes desplegar este proyecto:
+
+- Como archivo ZIP desde AWS Console
+- Usando `dotnet lambda deploy-function`
+- Usando AWS CDK o SAM
+
