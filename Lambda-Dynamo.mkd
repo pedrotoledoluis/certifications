@@ -1,0 +1,191 @@
+
+# 📘 AWS Lambda con C# (.NET Core), SQS y DynamoDB
+
+Este proyecto muestra cómo desarrollar una función AWS Lambda en .NET Core que recibe mensajes de una cola SQS y los inserta en una tabla DynamoDB.
+
+---
+
+## ✅ Requisitos
+
+- .NET 6 o .NET 7 SDK
+- Cuenta de AWS con permisos para:
+  - Lambda
+  - SQS
+  - DynamoDB
+- AWS CLI configurado (opcional)
+- Visual Studio o VS Code
+
+---
+
+## 🧱 Estructura del Proyecto
+
+```
+MyLambdaProject/
+├── Models/
+│   └── Mensaje.cs
+├── Services/
+│   └── DynamoDbService.cs
+├── Function.cs
+└── MyLambdaProject.csproj
+```
+
+---
+
+## 📦 Instalación de Paquetes
+
+```bash
+dotnet add package AWSSDK.DynamoDBv2
+dotnet add package Amazon.Lambda.SQSEvents
+```
+
+---
+
+## 📁 `Models/Mensaje.cs`
+
+````csharp
+namespace MyLambdaProject.Models;
+
+public class Mensaje
+{
+    public string Id { get; set; }
+    public string Contenido { get; set; }
+    public string Timestamp { get; set; }
+}
+````
+
+---
+
+## 🛠️ `Services/DynamoDbService.cs`
+
+````csharp
+using Amazon.DynamoDBv2;
+using Amazon.DynamoDBv2.Model;
+using MyLambdaProject.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace MyLambdaProject.Services;
+
+public class DynamoDbService
+{
+    private readonly IAmazonDynamoDB _dynamoDbClient;
+    private const string Tabla = "Mensajes";
+
+    public DynamoDbService()
+    {
+        _dynamoDbClient = new AmazonDynamoDBClient();
+    }
+
+    public async Task InsertarMensajeAsync(Mensaje mensaje)
+    {
+        var item = new Dictionary<string, AttributeValue>
+        {
+            ["Id"] = new AttributeValue { S = mensaje.Id },
+            ["Contenido"] = new AttributeValue { S = mensaje.Contenido },
+            ["Timestamp"] = new AttributeValue { S = mensaje.Timestamp }
+        };
+
+        var request = new PutItemRequest
+        {
+            TableName = Tabla,
+            Item = item
+        };
+
+        await _dynamoDbClient.PutItemAsync(request);
+    }
+}
+````
+
+---
+
+## 💡 `Function.cs`
+
+````csharp
+using System;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Amazon.Lambda.Core;
+using Amazon.Lambda.SQSEvents;
+using MyLambdaProject.Models;
+using MyLambdaProject.Services;
+
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace MyLambdaProject;
+
+public class Function
+{
+    private readonly DynamoDbService _dbService;
+
+    public Function()
+    {
+        _dbService = new DynamoDbService();
+    }
+
+    public async Task FunctionHandler(SQSEvent evnt, ILambdaContext context)
+    {
+        foreach (var record in evnt.Records)
+        {
+            try
+            {
+                var body = record.Body;
+                context.Logger.LogInformation($"📨 Mensaje recibido: {body}");
+
+                var mensaje = new Mensaje
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Contenido = body,
+                    Timestamp = DateTime.UtcNow.ToString("o")
+                };
+
+                await _dbService.InsertarMensajeAsync(mensaje);
+
+                context.Logger.LogInformation("✅ Mensaje insertado exitosamente en DynamoDB.");
+            }
+            catch (Exception ex)
+            {
+                context.Logger.LogError($"❌ Error al procesar el mensaje: {ex.Message}");
+            }
+        }
+    }
+}
+````
+
+---
+
+## 🔗 Cómo Conectar la Lambda con SQS desde la Consola AWS
+
+1. Abre tu función Lambda en la consola de AWS.
+2. Haz clic en **"Agregar desencadenador"**.
+3. Selecciona **SQS**.
+4. Elige la cola que quieres conectar.
+5. Asegúrate de que esté marcada la opción **"Activar desencadenador"**.
+6. Guarda los cambios.
+
+### 🔐 Permisos necesarios para Lambda
+
+El rol de ejecución de Lambda debe tener permisos como:
+
+```json
+{
+  "Effect": "Allow",
+  "Action": [
+    "sqs:ReceiveMessage",
+    "sqs:DeleteMessage",
+    "sqs:GetQueueAttributes"
+  ],
+  "Resource": "arn:aws:sqs:REGION:ACCOUNT_ID:QUEUE_NAME"
+}
+```
+
+---
+
+## 🚀 Despliegue
+
+Puedes desplegar este código usando:
+
+- AWS Console (cargar .zip)
+- `dotnet lambda deploy-function` (usando Amazon.Lambda.Tools)
+- AWS CDK o SAM
+
+
