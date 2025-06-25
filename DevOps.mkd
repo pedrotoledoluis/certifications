@@ -1,0 +1,95 @@
+# 📘 Roadmap DevOps/Java/.NET 
+
+
+## 🔵 1. Fundamentos DevOps y CI/CD (Obligatorio)
+
+- [Guía oficial de Git](https://git-scm.com/book/es/v2)
+- [Estrategia Trunk Based Development](https://trunkbaseddevelopment.com/)
+- [GitHub Actions Docs](https://docs.github.com/actions)
+- [Azure Pipelines YAML](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
+- [Tutorial de Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started-yaml)
+
+---
+
+## 🟡 2. Desarrollo con Java + Maven
+
+- [Maven Getting Started Guide](https://maven.apache.org/guides/getting-started/index.html)
+- [Deploy Maven Artifacts to JFrog Artifactory](https://jfrog.com/help/r/jfrog-artifactory-documentation/maven-artifact-resolution)
+- [Maven Central Repository](https://search.maven.org/)
+
+---
+
+## 🟢 3. SonarCloud + Artifactory
+
+- [SonarCloud Docs](https://docs.sonarsource.com/sonarcloud/)
+- [SonarCloud + GitHub Action](https://github.com/marketplace/actions/sonarcloud-scan)
+- [JFrog Artifactory Integration](https://jfrog.com/integration/)
+- [JFrog CLI Docs](https://jfrog.com/help/r/jfrog-cli-documentation)
+
+---
+
+## 🟠 4. Scripting Bash + PowerShell
+
+- [Guía de Bash para principiantes](https://ryanstutorials.net/bash-scripting-tutorial/)
+- [PowerShell Scripting Guide](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.2)
+- [Bash Cheat Sheet](https://devhints.io/bash)
+- [PowerShell Gallery](https://www.powershellgallery.com/)
+
+---
+
+## 🔴 5. Docker y Kubernetes
+
+- [Docker Docs](https://docs.docker.com/get-started/)
+- [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
+- [Docker Compose Docs](https://docs.docker.com/compose/)
+- [Play with Kubernetes](https://labs.play-with-k8s.com/)
+- [Kubernetes Docs](https://kubernetes.io/docs/home/)
+- [Minikube (K8s local)](https://minikube.sigs.k8s.io/docs/start/)
+
+---
+
+## 🟣 6. .NET Framework y .NET Core (Deseable)
+
+- [.NET Learn – Microsoft Docs](https://learn.microsoft.com/en-us/dotnet/)
+- [dotnet CLI Reference](https://learn.microsoft.com/en-us/dotnet/core/tools/)
+- [Crear Web API con .NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
+
+---
+
+## ⚪ 7. Azure Cloud (Conocimientos Básicos)
+
+- [Microsoft Learn – Azure Fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals/)
+- [Azure CLI Docs](https://learn.microsoft.com/en-us/cli/azure/)
+- [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/)
+
+---
+
+## 🟤 8. Pruebas Funcionales y de Performance (Deseables)
+
+- [Selenium Docs](https://www.selenium.dev/documentation/)
+- [Serenity BDD](https://serenity-bdd.github.io/theserenitybook/latest/)
+- [JMeter Docs](https://jmeter.apache.org/usermanual/index.html)
+- [Azure Load Testing (con ejemplos)](https://learn.microsoft.com/en-us/azure/load-testing/tutorial-ci-cd-github-actions)
+
+---
+
+## ✅ Recursos Extra
+
+- [DevOps Labs – Microsoft Channel](https://www.youtube.com/playlist?list=PLLasX02E8BPCf9T07Xz4gkG_s6jR3DBsE)
+- [Awesome DevOps GitHub Repo](https://github.com/awesome-devops/awesome-devops)
+- [Roadmap.sh – DevOps](https://roadmap.sh/devops)
+
+---
+
+## 📌 Sugerencia de práctica
+
+> Realiza un proyecto que incluya:
+- Aplicación Java con Maven
+- Pipeline con GitHub Actions o Azure Pipelines
+- Análisis con SonarCloud
+- Artefactos en JFrog
+- Imagen Docker
+- Despliegue en Kubernetes
+- Monitorización simple con Azure o logs en consola
+
+---
